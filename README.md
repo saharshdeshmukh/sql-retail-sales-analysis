@@ -24,3 +24,10 @@ This project analyzes retail sales data using SQL to identify business insights 
 
 ## Business Value
 This analysis helps stakeholders understand sales performance and supports data-driven decision making.
+
+## Project Skills Demonstrated
+- Data cleaning and transformation  
+- Writing complex SQL queries  
+- Business-oriented data analysis  
+- KPI extraction  
+- Translating raw data into actionable insights
