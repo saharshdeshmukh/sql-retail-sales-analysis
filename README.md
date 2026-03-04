@@ -1,33 +1,39 @@
 # SQL Retail Sales Analysis
 
-## Project Overview
-This project analyzes retail sales data using SQL to identify business insights such as revenue trends, top-selling products, and monthly performance.
+## Objective
+Analyze retail sales data to identify revenue trends, top customers, and product performance.
 
-## Tools Used
-- SQL (MySQL)
-- Data Cleaning
-- Aggregations
-- Joins
-- Group By
-- Business KPI Analysis
+## Dataset
+Retail sales transaction dataset containing:
+- order_id
+- customer_id
+- category
+- quantity
+- price
+- sale_date
 
-## Key Insights
-• Identified highest revenue-generating product categories  
-• Analyzed monthly sales trends  
-• Evaluated customer purchasing patterns  
-• Calculated total revenue and order volume  
+## Business Questions
+1. What is the total revenue?
+2. Which product categories generate the most revenue?
+3. Who are the top customers by spending?
+4. What are the monthly sales trends?
+5. Which time of day generates the most sales?
 
-## Files Included
-- Dataset (CSV)
-- SQL Query File
-- Result Screenshots
+## Key SQL Concepts Used
+- GROUP BY
+- JOIN
+- Aggregate Functions
+- Filtering
+- Ordering
 
-## Business Value
-This analysis helps stakeholders understand sales performance and supports data-driven decision making.
+## Example Query
 
-## Project Skills Demonstrated
-- Data cleaning and transformation  
-- Writing complex SQL queries  
-- Business-oriented data analysis  
-- KPI extraction  
-- Translating raw data into actionable insights
+SELECT category, SUM(total_sale) AS revenue
+FROM retail_sales
+GROUP BY category
+ORDER BY revenue DESC;
+
+## Insights
+- A small group of customers contributed the majority of revenue
+- Afternoon transactions generated the highest sales
+- Certain product categories dominate overall revenue
