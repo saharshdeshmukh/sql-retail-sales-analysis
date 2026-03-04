@@ -37,3 +37,9 @@ ORDER BY revenue DESC;
 - A small group of customers contributed the majority of revenue
 - Afternoon transactions generated the highest sales
 - Certain product categories dominate overall revenue
+
+## Total Revenue Analysis
+
+Query calculates total sales revenue from the dataset.
+
+![Total Revenue](images/total_revenue_query.png)
