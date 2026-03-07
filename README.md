@@ -33,10 +33,12 @@ FROM retail_sales
 GROUP BY category
 ORDER BY revenue DESC;
 
-## Insights
-- A small group of customers contributed the majority of revenue
-- Afternoon transactions generated the highest sales
-- Certain product categories dominate overall revenue
+## Key Insights
+
+- Identified top spending customers
+- Calculated revenue share by product
+- Analyzed average order value
+- Performed customer revenue ranking
 
 ## Total Revenue Analysis
 
